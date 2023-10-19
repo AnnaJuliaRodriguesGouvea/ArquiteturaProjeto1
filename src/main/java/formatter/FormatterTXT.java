@@ -2,6 +2,9 @@ package formatter;
 
 import java.util.List;
 
+/*
+    Classe que implementa o Fromatter criando a saída de dados em um modelo fixo de TXT
+*/
 public class FormatterTXT implements Formatter {
     @Override
     public String output(List<String> cidades) {

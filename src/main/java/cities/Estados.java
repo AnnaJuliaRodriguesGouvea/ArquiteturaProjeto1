@@ -3,8 +3,11 @@ package cities;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.List;
-@JsonIgnoreProperties(ignoreUnknown = true)
 
+/*
+    Classe que representa um modelo Estado a partir de um documento json
+*/
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Estados {
     private List<Cidades> cidades;
 

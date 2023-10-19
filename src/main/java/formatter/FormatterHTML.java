@@ -2,6 +2,9 @@ package formatter;
 
 import java.util.List;
 
+/*
+    Classe que implementa o Fromatter criando a saída de dados em um modelo fixo de HTML
+*/
 public class FormatterHTML implements Formatter {
     @Override
     public String output(List<String> cidades) {

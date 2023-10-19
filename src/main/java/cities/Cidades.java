@@ -3,6 +3,9 @@ package cities;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/*
+    Classe que representa um modelo Cidade a partir de um documento json
+*/
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Cidades {
 

@@ -8,6 +8,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+    Classe que implementa a Parser e é responsável pela conversão dos dados
+    lidos do arquivo cidades-2.json para uma lista de strings (nomes das cidades).
+*/
 public class JSON2Parser implements Parser{
     @Override
     public List<String> parse(String content) {
